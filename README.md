@@ -1,7 +1,7 @@
 # specfem_training
 
 This github repository contains information for specfem's cheese training session 2021.
-In this file, we explain how to open the jupyter lab with the pyspecfem's docker image step by step.
+In this file, we explain how to open the jupyter lab with the pyspecfem's docker image.
 
 
 ## Install docker
