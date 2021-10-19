@@ -1,0 +1,24 @@
+version: '3.4'
+services:
+    spec:
+      image: mnagaso/spec_training:test_2
+      #build:
+      #    network: host
+      #    context: .
+      #    dockerfile: docker_files/Dockerfile
+      volumes:
+        - ./notes/:/notes
+        - /tmp/.X11-unix/:/tmp/.X11-unix:rw
+      #command: "bash"
+      command: "jupyter lab --port=8888 --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token='' --NotebookApp.password=''"
+      tty: true
+      stdin_open: true
+      ports:
+        - 8888:8888
+      environment:
+        - DISPLAY=unix$DISPLAY
+        - QT_X11_NO_MITSHM=1
+  
+      #runtime: nvidia # comment out for running on no-nvidia machine
+
+#xhost +local:docker need to be run before docker-compose up
