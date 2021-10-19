@@ -17,7 +17,8 @@ Docker may be installed for Linux/Windows/OSX by following the docker's [officia
 
 If you find the error message like:
 ```
-ERROR: for pyspecfem_docker_image_spec_1  Cannot start service spec: driver failed programming external connectivity on endpoint pyspecfem_docker_image_spec_1 (f1c7b06807902cff70e348dba40d38e0a957626432957a436b1032aebc9d3027): Error starting userland proxy: listen tcp4 0.0.0.0:8888: bind: address already in use
+ERROR: for pyspecfem_docker_image_spec_1  Cannot start service spec: driver failed   programming  external connectivity on endpoint pyspecfem_docker_image_spec_1 (f1c7b06807902cff70e348dba40d38e0a957626432957a436b1032aebc9d3027):   
+Error starting userland proxy: listen tcp4 0.0.0.0:8888: bind: address already in use
 
 ...
 ```
