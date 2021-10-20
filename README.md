@@ -13,7 +13,7 @@ Please check if docker-compose command is available on your terminal.
 
 ## Launch preconfigured python/jupyter environment
 0. Only for Windows/OSX user need to check if your Docker docker desctop application is started and engine is running.
-1. Open a terminal (wsl is better for windows users).
+1. Open a terminal window.
 2. Clone this repository by the command `git clone https://github.com/mnagaso/specfem_training.git`
 3. Enter this repository directory by `cd specfem_training`
 4. Download and start docker image/container by the command `docker-compose up`
