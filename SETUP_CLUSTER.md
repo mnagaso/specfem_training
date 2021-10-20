@@ -8,8 +8,8 @@
     
     `cd /shared/training/ws/$(whoami)-specfem3d-exercise/`  
     `mkdir homogeneous`  
-    `mkdir marmousi_acoustic`
-    `mkdir piton`
+    `mkdir marmousi_acoustic`  
+    `mkdir piton`  
     
 3. load the python module with `module load python`
 
