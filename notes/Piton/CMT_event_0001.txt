@@ -1,0 +1,13 @@
+ PDEW2010  1 17 12  0  1.10 -21.500  55.00   3.0 3.0 3.3 DRAKE PASSAGE     
+event name:     201001171200A  
+time shift:      0.
+half duration:   0. 
+latitude:        -21.24
+longitude:       55.71
+depth:           -1.80
+Mrr:       1.e+20
+Mtt:       1.e+20
+Mpp:       1.e+20
+Mrt:       0.
+Mrp:       0.
+Mtp:       0.
