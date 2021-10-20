@@ -1,7 +1,7 @@
 version: '3.4'
 services:
     spec:
-      image: mnagaso/spec_training:test_2
+      image: mnagaso/spec_training:v1.0
       #build:
       #    network: host
       #    context: .
@@ -18,7 +18,7 @@ services:
       environment:
         - DISPLAY=unix$DISPLAY
         - QT_X11_NO_MITSHM=1
-  
+
       #runtime: nvidia # comment out for running on no-nvidia machine
 
 #xhost +local:docker need to be run before docker-compose up
