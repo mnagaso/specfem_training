@@ -40,6 +40,14 @@ then when you will find an available port (which docker-compose up works),
 you can open jupyterlab by the address localhost:8889 or another port which you use in the docker-compose.yml file.
 
 
+Please try `sudo docker-compose up` for the error
+```
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable. 
+```
+
+
 ## Setup the directories on the cluster
 Before starting a calculation, we need to prepare some directories on the cluster.
 Please follow [this document](SETUP_CLUSTER.md).
