@@ -7,6 +7,10 @@ In this file, we explain how to open the jupyter lab with the pyspecfem's docker
 ## Install docker
 Docker may be installed for Linux/Windows/OSX by following the docker's [official homepage](https://docs.docker.com/get-docker/)
 
+## Install docker compose
+Please check if docker-compose command is available on your terminal.  
+[Here](https://docs.docker.com/compose/install/) you can find an instruction for installing it.  
+
 ## Launch preconfigured python/jupyter environment
 0. Only for Windows/OSX user need to check if your Docker docker desctop application is started and engine is running.
 1. Open a terminal (wsl is better for windows users).
